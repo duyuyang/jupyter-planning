@@ -2,16 +2,14 @@
 
 ## Setup
 
-- Install virtual environment
+- Create virtual environment & Install required packages
 
 ```s
-$ conda install -n venv
-```
+$ conda create -n venv -y --file package-list.txt
 
-- Install required packages
-
-```s
-$ conda create -n venv --file package-list.txt
+# -n : Create new virtual environment
+# -y : Do not ask for confirmation
+# --file: Install the packages from the file
 ```
 
 - Activate virtual environment
