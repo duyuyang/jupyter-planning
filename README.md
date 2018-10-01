@@ -7,8 +7,8 @@
 ```s
 $ conda create -n venv -y --file package-list.txt
 
-# -n : Create new virtual environment
-# -y : Do not ask for confirmation
+# -n: Create new virtual environment
+# -y: Do not ask for confirmation
 # --file: Install the packages from the file
 ```
 
